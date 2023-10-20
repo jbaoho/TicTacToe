@@ -1,0 +1,22 @@
+# constants for the tictactoe game
+
+WIDTH = 600
+HEIGHT = WIDTH
+
+ROWS = 3
+COLS = 3
+SQSIZE = WIDTH // COLS
+
+LINE_WIDTH = WIDTH // 40
+CIRC_WIDTH = WIDTH // 40
+CROSS_WIDTH = WIDTH // 30
+
+RADIUS = SQSIZE // 4
+
+OFFSET = WIDTH // 12
+
+# Colors
+BG_COLOR = (28, 170, 156)
+LINE_COLOR = (23, 145, 135)
+CIRC_COLOR = (239, 231, 200)
+CROSS_COLOR = (66, 66, 66)
